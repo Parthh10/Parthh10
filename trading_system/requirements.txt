@@ -1,0 +1,16 @@
+# ─── Free data sources ────────────────────────────────────────────────────────
+yfinance>=0.2.40          # Yahoo Finance – options chain, quotes, history (no key)
+yoptions>=0.0.5           # Greeks via Yahoo Finance (no key)
+requests>=2.31.0          # HTTP client (Tradier free dev API)
+
+# ─── Numerics / analytics ─────────────────────────────────────────────────────
+numpy>=1.26.0
+pandas>=2.2.0
+scipy>=1.13.0             # Brent root-solver for IV, stats
+
+# ─── Visualisation (optional but useful for IV surface) ───────────────────────
+matplotlib>=3.9.0
+
+# ─── Utilities ────────────────────────────────────────────────────────────────
+python-dotenv>=1.0.0      # Load API keys from .env safely
+tabulate>=0.9.0           # Pretty-print trade tables in terminal
